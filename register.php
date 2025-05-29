@@ -99,10 +99,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <label>Daftar sebagai</label>
             <select name="role" class="form-control" required>
                 <option value="">-- Pilih --</option>
-                <option value="admin">Admin</option>
                 <option value="penjual">Penjual</option>
                 <option value="pembeli">Pembeli</option>
-                <option value="dokter">Dokter Hewan</option>
             </select>
         </div>
         <div class="mb-2">
